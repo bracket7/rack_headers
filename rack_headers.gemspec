@@ -4,7 +4,7 @@
 # -*- encoding: utf-8 -*-
 
 Gem::Specification.new do |s|
-  s.name = %q{rack-headers}
+  s.name = %q{rack_headers}
   s.version = "0.1.0"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
@@ -16,10 +16,9 @@ Gem::Specification.new do |s|
      "Rakefile",
      "VERSION",
      "lib/rack_headers.rb",
-     "lib/rack_headers/print.rb",
-     "rack-headers.gemspec"
+     "lib/rack_headers/print.rb"
   ]
-  s.homepage = %q{http://github.com/digitaltoniq/rack-headers}
+  s.homepage = %q{http://github.com/digitaltoniq/rack_headers}
   s.rdoc_options = ["--charset=UTF-8"]
   s.require_paths = ["lib"]
   s.rubygems_version = %q{1.3.5}
