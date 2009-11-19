@@ -11,6 +11,14 @@ Gem::Specification.new do |s|
   s.authors = ["Ryan Daigle"]
   s.date = %q{2009-11-19}
   s.email = %q{ryan@digitaltoniq.com}
+  s.files = [
+    ".gitignore",
+     "Rakefile",
+     "VERSION",
+     "lib/rack_headers.rb",
+     "lib/rack_headers/print.rb",
+     "rack-headers.gemspec"
+  ]
   s.homepage = %q{http://github.com/digitaltoniq/rack-headers}
   s.rdoc_options = ["--charset=UTF-8"]
   s.require_paths = ["lib"]
